@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_dark"
+        tools:context=".MainActivity" >
+
+        <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:src="@drawable/logo"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"/>
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Game Of Midot"
+            android:layout_below="@+id/logo"
+            android:textSize="23sp"
+            android:fontFamily="@font/got"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+    />
+<!--    <TextView-->
+<!--            android:id="@+id/subtitle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Midot"-->
+<!--            android:layout_below="@+id/title"-->
+<!--            android:textSize="20sp"-->
+<!--            android:fontFamily="@font/got"-->
+<!--            android:textColor="@color/colorLightBlue"-->
+<!--            android:gravity="center"-->
+<!--    />-->
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+        >
+        <LinearLayout
+                android:layout_alignTop="@+id/linear_layout_game_over_view"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="25dp"
+        >
+
+            <LinearLayout
+                    android:id="@+id/linear_layout_rules"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_home"
+                    android:padding="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+            >
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_games_white_24dp"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:text="Rules"
+                        android:fontFamily="@font/quicksand"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/linear_layout_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_home"
+                    android:padding="15dp"
+                    android:gravity="center"
+            >
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_format_list_bulleted_white_24dp"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:text="Scores"
+                        android:fontFamily="@font/quicksand"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+                android:id="@+id/btn_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:textSize="20sp"
+                android:textFontWeight="900"
+                android:fontFamily="@font/quicksand"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_home"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

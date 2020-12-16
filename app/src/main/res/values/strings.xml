@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GOT Trivia</string>
+    <string name="text_default_score">Score: 0</string>
+    <string name="text_default_time_left">Time left - 05:00</string>
+    <string name="text_default_questions_answered">01 / 10</string>
+    <string name="text_default_questions">Where is the Gateway of India located?</string>
+    <string name="text_default_button">Default Button</string>
+    <string name="text_correct_button">Correct Button</string>
+    <string name="text_wrong_button">Wrong Button</string>
+    <string name="text_game_over">Game Over!</string>
+    <string name="text_default_total_score">Your Score: 50</string>
+    <string name="text_start_new_game">Start New Game</string>
+    <string name="text_got_description">Game of Thrones Trivia is a trivia game based on the Game of Thrones series.
+        \nJust for fun, while we wait for the final season.
+        \n\nPlayers have a short amount of time to answer questions correctly. As you build points, you would be able to unlock other quiz levels.
+        \n\nTo unlock the middle level, you need to have 90 points.
+        \n\nTo unlock the hard level, you need to have 180 points.
+        \n\nHave fun!
+    </string>
+    <string name="text_you_unlocked_medium">Congratulations! You have unlocked the medium challenge</string>
+    <string name="text_you_unlocked_hard">Congratulations! You have unlocked the hard challenge</string>
+</resources>
