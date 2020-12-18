@@ -22,17 +22,18 @@ class MainActivity : AppCompatActivity() {
            pref.setFirstInstall()
         }
 
-        btn_play.setOnClickListener { loadQuizScreen("Easy") }
+        btn_play.setOnClickListener { launchIntent(LevelActivity::class.java) }
         linear_layout_score.setOnClickListener { launchIntent(ScoresActivity::class.java) }
         linear_layout_rules.setOnClickListener { launchIntent(RulesActivity::class.java) }
     }
 
     @SuppressLint("PrivateResource")
     private fun loadQuizScreen(level: String) {
-        val intent = Intent(applicationContext, QuizActivity::class.java)
-        intent.putExtra("LEVEL_EXTRA", level)
-        startActivity(intent)
-        overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out)
+//        val intent = Intent(applicationContext, QuizActivity::class.java)
+//        intent.putExtra("LEVEL_EXTRA", level)
+//        startActivity(intent)
+//        overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out)
+
     }
 
     @SuppressLint("PrivateResource")

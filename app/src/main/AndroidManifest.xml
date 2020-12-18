@@ -4,12 +4,14 @@
 
     <application
             android:allowBackup="true"
-            android:icon="@drawable/swords"
+            android:icon="@mipmap/ic_logo"
             android:label="@string/app_name"
-            android:roundIcon="@drawable/swords"
+            android:roundIcon="@mipmap/ic_logo"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".anekdot.Pengertian"
+        <activity android:name=".anekdot.ActivityAnekdot"
+                android:screenOrientation="portrait"/>
+        <activity android:name=".anekdot.IsiAnekdot"
             android:screenOrientation="portrait"/>
         <activity android:name=".video.ActivityVideo"
             android:screenOrientation="portrait"/>

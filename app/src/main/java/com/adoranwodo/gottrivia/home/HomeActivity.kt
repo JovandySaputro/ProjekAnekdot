@@ -1,13 +1,12 @@
 package com.adoranwodo.gottrivia.home
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.adoranwodo.gottrivia.MainActivity
 import com.adoranwodo.gottrivia.R
-import com.adoranwodo.gottrivia.anekdot.Pengertian
+import com.adoranwodo.gottrivia.anekdot.ActivityAnekdot
 import com.adoranwodo.gottrivia.video.ActivityVideo
 import com.opensooq.pluto.base.PlutoAdapter
 import com.opensooq.pluto.listeners.OnItemClickListener
@@ -24,12 +23,15 @@ class HomeActivity: AppCompatActivity() {
             startActivity(intent)
         }
         btn_anekdot.setOnClickListener(){
-            val intent = Intent(applicationContext, Pengertian::class.java)
+            val intent = Intent(applicationContext, ActivityAnekdot::class.java)
             startActivity(intent)
         }
         btn_Permainan.setOnClickListener(){
             val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
+        }
+        btn_exit.setOnClickListener(){
+            finish()
         }
         poster()
     }

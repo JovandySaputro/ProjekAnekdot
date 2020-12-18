@@ -61,7 +61,7 @@ class QuizActivity : AppCompatActivity() {
             "Hard" -> {
                 text_view_time_left.text = "Time left - 00:01:00"
                 levelTotalTime = 60000
-                scoreIncrement = 30
+                scoreIncrement = 20
             }
         }
 
