@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backcontoh">
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_centerInParent="true">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+    <TextView
+            android:id="@+id/judul_isi_contoh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textAlignment="center"
+        android:textSize="28sp"
+            android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <TextView
+            android:id="@+id/txt_isi_contoh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_lucu"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:lineSpacingExtra="4dp"/>
+
+</LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

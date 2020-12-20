@@ -9,6 +9,12 @@
             android:roundIcon="@mipmap/ic_logo"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".contoh.ActivityIsiContoh"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".contoh.ActivityContoh"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".contoh.DetailContoh"
+            android:screenOrientation="portrait"/>
         <activity android:name=".anekdot.ActivityAnekdot"
                 android:screenOrientation="portrait"/>
         <activity android:name=".anekdot.IsiAnekdot"

@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.adoranwodo.gottrivia.MainActivity
 import com.adoranwodo.gottrivia.R
 import com.adoranwodo.gottrivia.anekdot.ActivityAnekdot
+import com.adoranwodo.gottrivia.contoh.ActivityContoh
 import com.adoranwodo.gottrivia.video.ActivityVideo
 import com.opensooq.pluto.base.PlutoAdapter
 import com.opensooq.pluto.listeners.OnItemClickListener
@@ -20,6 +21,10 @@ class HomeActivity: AppCompatActivity() {
         setContentView(R.layout.activity_home)
         btn_video.setOnClickListener(){
             val intent = Intent(applicationContext, ActivityVideo::class.java)
+            startActivity(intent)
+        }
+        btn_Contoh.setOnClickListener(){
+            val intent = Intent(applicationContext, ActivityContoh::class.java)
             startActivity(intent)
         }
         btn_anekdot.setOnClickListener(){

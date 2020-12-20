@@ -20,6 +20,18 @@ class IsiAnekdot: AppCompatActivity() {
             layIsiAnekdot.setBackgroundResource(R.drawable.sturtur)
         }else if(id.equals("3")){
             layIsiAnekdot.setBackgroundResource(R.drawable.ciri)
+        }else if(id.equals("4")){
+            layIsiAnekdot.setBackgroundResource(R.drawable.politik)
+        }else if(id.equals("5")){
+            layIsiAnekdot.setBackgroundResource(R.drawable.singkat)
+        }else if(id.equals("6")){
+            layIsiAnekdot.setBackgroundResource(R.drawable.lucu)
+        }else if(id.equals("7")){
+            layIsiAnekdot.setBackgroundResource(R.drawable.bdaerah)
+        }else if(id.equals("8")){
+            layIsiAnekdot.setBackgroundResource(R.drawable.kesehatan)
+        }else if(id.equals("9")){
+            layIsiAnekdot.setBackgroundResource(R.drawable.sekolah)
         }else{
             layIsiAnekdot.setBackgroundColor(R.color.purple_dark)
         }

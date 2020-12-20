@@ -56,6 +56,7 @@
            android:padding="15dp"
            android:fontFamily="@font/got" />
        <Button
+               android:id="@+id/btn_Contoh"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:text="Contoh Anekdot"
